@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.coverage
+
+# Secrets and local env
+.env
+*.pem
+*.key
+
+# Terraform
+.terraform/
+terraform.tfstate*
+*.tfplan
+
+# Editors
+.idea/
+.vscode/
